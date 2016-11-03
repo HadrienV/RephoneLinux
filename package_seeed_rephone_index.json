@@ -1,0 +1,133 @@
+{
+  "packages": [
+    {
+      "name": "RePhone",
+      "maintainer": "Seeed Studio",
+      "websiteURL": "http://seeed.cc/rephone",
+      "help": {
+        "online": "http://www.seeedstudio.com/forum/viewforum.php?f=71"
+      },
+      "platforms": [
+        {
+          "name": "RePhone",
+          "architecture": "arm",
+          "version": "0.0.2",
+          "category": "Contributed",
+          "help": {
+            "online": "http://www.seeedstudio.com/forum/viewforum.php?f=71"
+          },
+          "url": "https://github.com/Seeed-Studio/Arduino_IDE_for_RePhone/releases/download/v0.9/seeed_rephone_sdk_for_arduino_0.0.2.zip",
+          "archiveFileName": "seeed_rephone_sdk_for_arduino_0.0.2.zip",
+          "checksum": "SHA-256:2b49414c6a0c79a21345d6a38b00baf9abc556707bd05f8b7ed1a1a450dca48b",
+          "size": "480325",
+          "boards": [
+            {"name": "RePhone"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "RePhone",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "RePhone",
+              "name": "linkit_tools",
+              "version": "1.1.17"
+            }
+          ]
+        },
+        {
+          "name": "RePhone",
+          "architecture": "arm",
+          "version": "0.0.1",
+          "category": "Contributed",
+          "help": {
+            "online": "http://www.seeedstudio.com/forum/viewforum.php?f=71"
+          },
+          "url": "https://github.com/Seeed-Studio/Arduino_IDE_for_RePhone/releases/download/v0.9/seeed_rephone_sdk_for_arduino_0.0.1.zip",
+          "archiveFileName": "seeed_rephone_sdk_for_arduino_0.0.1.zip",
+          "checksum": "SHA-256:53ec8f208f2f88280b1f1ddf72ce81e4a04a5bfd29506be120c398f1144279fe",
+          "size": "480301",
+          "boards": [
+            {"name": "RePhone"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "RePhone",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "RePhone",
+              "name": "linkit_tools",
+              "version": "1.1.17"
+            }
+          ]
+        }
+      ],
+       "tools": [
+        {
+           "name":"arm-none-eabi-gcc",
+           "version":"4.8.3-2014q1",
+           "systems":[
+              {
+                 "host":"i686-mingw32",
+                 "archiveFileName":"gcc-arm-none-eabi-4.8.3-2014q1-windows.tar.gz",
+                 "url":"http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-windows.tar.gz",
+                 "checksum":"SHA-256:fd8c111c861144f932728e00abd3f7d1107e186eb9cd6083a54c7236ea78b7c2",
+                 "size":"84537449"
+              },
+              {
+                 "host":"x86_64-apple-darwin",
+                 "url":"http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
+                 "archiveFileName":"gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
+                 "checksum":"SHA-256:3598acf21600f17a8e4a4e8e193dc422b894dc09384759b270b2ece5facb59c2",
+                 "size":"52518522"
+              },
+              {
+                 "host":"x86_64-pc-linux-gnu",
+                 "url":"http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
+                 "archiveFileName":"gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
+                 "checksum":"SHA-256:d23f6626148396d6ec42a5b4d928955a703e0757829195fa71a939e5b86eecf6",
+                 "size":"51395093"
+              },
+              {
+                 "host":"i686-pc-linux-gnu",
+                 "url":"http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
+                 "archiveFileName":"gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
+                 "checksum":"SHA-256:ba1994235f69c526c564f65343f22ddbc9822b2ea8c5ee07dd79d89f6ace2498",
+                 "size":"51029223"
+              }
+           ]
+        },
+        {
+          "name": "linkit_tools",
+          "version": "1.1.17",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "archiveFileName": "mediatek_linkit_sdk_tool_windows-1.1.17.zip",
+              "url": "http://download.labs.mediatek.com/mediatek_linkit_sdk_tool_windows-1.1.17.zip",
+              "checksum": "SHA-256:dd7df756143d368b7645580f561f8a04f0b21431a12ae0bbcedc96a967597152",
+              "size": "16372292"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "archiveFileName": "mediatek_linkit_sdk_tool_osx-1.1.17.tar.gz",
+              "url": "http://download.labs.mediatek.com/mediatek_linkit_sdk_tool_osx-1.1.17.tar.gz",
+              "checksum": "SHA-256:de53967e4a2270f80ff2f3b48192b8bc09c79558bcaa2c4dd06c3933956f2e2c",
+              "size": "16408710"
+            },
+	    {
+              "host":"i686-linux-gnu",
+              "archiveFileName": "master.zip",
+              "url": "https://github.com/v-i-s-h/LinkItOne-Linux-Arduino/archive/master.zip",
+              "checksum": "SHA-256:10a73b6e0a12b9ccfaa0791ad83ca911f69c3e725be266272d239b310f51e6d5",
+              "size": "168931"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
