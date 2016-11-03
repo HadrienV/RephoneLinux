@@ -2,7 +2,7 @@
   "packages": [
     {
       "name": "RePhone",
-      "maintainer": "Seeed Studio",
+      "maintainer": "Hadrien",
       "websiteURL": "http://seeed.cc/rephone",
       "help": {
         "online": "http://www.seeedstudio.com/forum/viewforum.php?f=71"
